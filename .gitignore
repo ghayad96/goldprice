@@ -43,3 +43,15 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Additional build directories that should be ignored
+android/app/build/
+android/build/
+ios/build/
+macos/build/
+linux/build/
+windows/build/
+web/build/
+
+# Flutter build artifacts
+build/
