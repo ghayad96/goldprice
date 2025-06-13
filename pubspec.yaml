@@ -1,0 +1,32 @@
+name: gold_price1
+description: A new Flutter project
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase packages
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.4
+  cloud_firestore: ^4.15.5
+
+  # Supabase
+  supabase_flutter: ^1.10.25
+
+  # Other utilities
+  shared_preferences: ^2.2.3
+  google_fonts: ^6.1.0
+  http: ^1.1.0
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
