@@ -1,16 +1,53 @@
-# gold_price1
+# 💰 Gold Price Uygulaması
 
-A new Flutter project.
+Bu mobil/web uygulama, altın ve diğer değerli metallerin fiyatlarını gerçek zamanlı olarak takip etmeyi sağlar. Flutter ile geliştirilmiştir.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 👤 Proje Sahibi
 
-A few resources to get you started if this is your first Flutter project:
+- **Ghayad Basmahji**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 👥 Takım Üyeleri
+
+| Sayfa                   | Sorumlu Kişi     |
+|------------------------|------------------|
+| Giriş Ekranı           | İslam            |
+| Ana Sayfa              | Sara             |
+| Altın Fiyatları Sayfası| Mahmoud          |
+| Diğer Metaller         | Ahmed            |
+
+---
+
+## 🖼️ Uygulama Görselleri
+
+### 🔐 Giriş Sayfası
+![Login](https://raw.githubusercontent.com/ghayad96/goldprice/main/screenshots/login.png)
+
+### 🏠 Ana Sayfa
+![Home](https://raw.githubusercontent.com/ghayad96/goldprice/main/screenshots/home.png)
+
+### 📈 Altın Fiyatları
+![Gold](https://raw.githubusercontent.com/ghayad96/goldprice/main/screenshots/gold.png)
+
+### 🧱 Diğer Metaller
+![Metals](https://raw.githubusercontent.com/ghayad96/goldprice/main/screenshots/metals.png)
+
+---
+
+## 🧩 Özellikler
+
+- 🔒 Google ile Firebase Authentication
+- 🌐 Mobil ve web uyumlu
+- 📊 Canlı fiyat güncellemeleri
+- 🧠 Kullanıcı dostu arayüz
+
+---
+
+## ⚙️ Çalıştırma Adımları
+
+```bash
+flutter pub get
+flutter run -d chrome
